@@ -54,9 +54,9 @@ public class PlayerController : MonoBehaviour
             theAnimator.SetFloat("Speed", Mathf.Abs(theRB2D.velocity.x));
 
             if (theRB2D.velocity.x > 0)
-                transform.localScale = new Vector2(6.5414f, 6.5414f);
+                transform.localScale = new Vector2(0.2627542f, 0.2627542f);
             else if (theRB2D.velocity.x < 0)
-                transform.localScale = new Vector2(-6.5414f, 6.5414f);
+                transform.localScale = new Vector2(-0.2627542f, 0.2627542f);
         }
     }
 
